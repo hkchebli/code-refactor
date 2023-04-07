@@ -106,9 +106,8 @@ p {
     max-width: 150px;
 }
 
-/* images-1 includes: online-reputation-management/social-media-marketing/earch-engine-opti10mization 
-I made them into one class since they all have the same properties*/
-.images-1  {
+
+.social-media-marketing, .online-reputation-management, .search-engine-optimization{ 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,6 +115,7 @@ I made them into one class since they all have the same properties*/
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 img {
     max-height: 200px;
