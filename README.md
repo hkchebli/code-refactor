@@ -10,6 +10,7 @@
 * GIVEN a webpage meets accessibility standards
 * WHEN I view the source code
 * THEN I find semantic HTML elements
+for the semantic elements, I replaced 'div' with 'main', 'section', 'footer', and 'aside'. I also removed all unneeded classes and used the attributes of their parent
 * WHEN I view the HTML elements (images)
 * THEN I add the alt attributes for the images in the webpage
 * WHEN I view the heading attributes
@@ -19,7 +20,7 @@
 
 
 ## results
- <img src="web-capture.jpeg"/>
+ <img src="./web-capture.jpeg"/>
 
 
 
